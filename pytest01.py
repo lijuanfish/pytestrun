@@ -6,8 +6,7 @@ class Test01:
 
     def teardown_class(self):
         print("teardown结束")
-/'' \
- ''
+
     def test_login1(self):
         print("正在登陆1")
 
