@@ -13,5 +13,3 @@ class Test01:
     def test_login2(self):
         print("正在登陆2")
 
-if __name__ == '__main__':
-    pytest.main(["-s","pytest01.py"])
