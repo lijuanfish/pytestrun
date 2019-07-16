@@ -2,14 +2,14 @@ import pytest
 
 class Test01:
     def setup_class(self):
-        print("setup开始")
+        print("setup")
 
     def teardown_class(self):
-        print("teardown结束")
+        print("teardown")
 
     def test_login1(self):
-        print("正在登陆1")
+        print("123")
 
     def test_login2(self):
-        print("正在登陆2")
+        print("234")
 
